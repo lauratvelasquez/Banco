@@ -7,6 +7,7 @@ public class Cliente {
     private String direccion;
     private String correo;
     private int celular;
+    private String postal;
 
     public Cliente() {
     }
@@ -79,6 +80,13 @@ public class Cliente {
         this.correo = correo;
     }
 
+    public String getPostal() {
+        return postal;
+    }
+
+    public void setPostal(String postal) {
+        this.postal = postal;
+    }
 
     public int adquirirProducto(){
         Scanner prod=new Scanner(System.in);
